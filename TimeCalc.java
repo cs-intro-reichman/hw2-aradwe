@@ -4,7 +4,7 @@
             int hours = Integer.parseInt("" + args[0].charAt(0) + args[0].charAt(1));
             int minutes = Integer.parseInt("" + args[0].charAt(3) + args[0].charAt(4));
             
-            // Parse minutesto add from the second argument
+            // Parse minutes to add from the second argument
             int minutesToAdd = Integer.parseInt(args[1]);
             
             // Calculate total minutes and update hours and minutes
