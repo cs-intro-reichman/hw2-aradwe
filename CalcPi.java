@@ -24,6 +24,6 @@ public class CalcPi {
 		approximatedPi *= 4; // multiply the result by 4 becuase the sum converges to π / 4.
 
 		System.out.println("pi according to Java: " + Math.PI);
-		System.out.println("pi, approximated:	 " + approximatedPi);
+		System.out.println("pi, approximated:     " + approximatedPi);
 	}
 }
