@@ -15,10 +15,10 @@ public class Cheers {
                         
                         // print a modified Message for special and regular letters
                         if (specialLetters.indexOf(cheeringMessage.charAt(i)) != -1) {
-                                System.out.println("Give me an " + currentLetter + ":" + currentLetter + "!");
+                                System.out.println("Give me an " + currentLetter + ": " + currentLetter + "!");
                         }
                         else{
-                                System.out.println("Give me a  " + currentLetter + ":" + currentLetter + "!");
+                                System.out.println("Give me a  " + currentLetter + ": " + currentLetter + "!");
                         }
                 }
 
