@@ -38,8 +38,7 @@ public class Collatz {
 						steps++;
 					}
 				}
-				System.out.print("(" + steps + ")");
-				System.out.println("");
+				System.out.println("(" + steps + ")");
 			}	
 			System.out.println("Every one of the first " + highestSeed + " hailstone sequences reached 1.");
 		}
